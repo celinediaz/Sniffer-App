@@ -5,7 +5,7 @@
  
  
  
-FEATURES:
+## FEATURES:
 - Capturing and analyzing ipv4, ipv6 and ARP packets. 
 - Selecting the interface (since it only analyzes ipv4, ipv6 and arp then you'd need to use the wifi interface)
 - Select a packet to show a more detailed analysis. (hexdump in ascii, binary, hex; list with its info; graphic header)
@@ -14,6 +14,10 @@ FEATURES:
 - Save the captured packet to a json file.
 
 Also, it works by reading and writing each packet into a file, it could be faster if I didn't do that and just added it directly into a vector, but this worked as practice on reading and writing, so this could be seen as a feature. After all this was a project meant for learning.
+
+## Screenshot of the program:
+![sniffer](https://user-images.githubusercontent.com/38956985/103493704-711ebc80-4df8-11eb-981a-712c9014545b.png)
+
 
 The original source code used to make the function that captures the packets
 (int  CSnifferProjectDlg::captura()) was on the npcap SDK examples and belongs to:
